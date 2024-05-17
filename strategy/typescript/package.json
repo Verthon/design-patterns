@@ -1,0 +1,17 @@
+{
+	"name": "strategy-pattern-typescript",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "tsx --test src/*.spec.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"tsx": "^4.10.2",
+		"typescript": "^5.4.5"
+	}
+}
