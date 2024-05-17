@@ -1,4 +1,5 @@
 import { describe, it } from "node:test";
+import assert from "node:assert";
 
 import {
 	Notifier,
@@ -6,7 +7,6 @@ import {
 	SMSNotificationStrategy,
 	PushNotificationStrategy,
 } from "./strategy-oop.js";
-import assert from "node:assert";
 
 describe("oop version of strategy pattern", () => {
 	it("should notify users via email", async () => {
